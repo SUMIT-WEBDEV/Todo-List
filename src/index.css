@@ -1,0 +1,89 @@
+/* Updated CSS */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Added a background color */
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-top: 20px; /* Added margin to the table */
+  }
+  
+  table td {
+    border: 2px solid #000;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold; /* Added font-weight */
+  }
+  
+  table caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    margin-top: 10px; /* Added margin-top to the buttons */
+  }
+  
+  button:hover {
+    background-color: #333; /* Slightly darker background on hover */
+  }
+  
+  .o {
+    color: blue;
+  }
+  
+  .x {
+    color: red;
+  }
+  
+  /* Additional styles for winner text and score */
+  .winner {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .score-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .reset-button {
+    background-color: #ff0000;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease;
+  }
+  
+  .reset-button:hover {
+    background-color: #cc0000;
+}
